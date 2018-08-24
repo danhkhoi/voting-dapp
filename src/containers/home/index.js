@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import { withStyles } from 'material-ui/styles'
+import { withStyles } from '@material-ui/core/styles'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import { CandidateList } from 'components'
-import Button from 'material-ui/Button'
-import AddIcon from 'material-ui-icons/Add';
+import Button from '@material-ui/core/Button'
+import AddIcon from '@material-ui/icons/Add';
 import {
   getCandidates,
   postulateNewCandidate,

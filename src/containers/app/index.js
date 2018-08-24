@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom'
 import { connect } from 'react-redux'
-import { withStyles } from 'material-ui/styles'
+import { withStyles } from '@material-ui/core/styles'
 import Home from 'containers/home'
 import NotFound from 'containers/not-found'
 import { HeaderBar } from 'components'
